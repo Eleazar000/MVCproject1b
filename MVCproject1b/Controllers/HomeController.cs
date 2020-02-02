@@ -10,7 +10,7 @@ namespace MVCproject1b.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View("Others/Details");
         }
 
         public ActionResult About()
